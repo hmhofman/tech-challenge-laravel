@@ -11,14 +11,14 @@ class ChallengeOne extends Command
      *
      * @var string
      */
-    protected $signature = 'command:name';
+    protected $signature = 'techchallenge:one';
 
     /**
      * The console command description.
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Run tech challenge one';
 
     /**
      * Create a new command instance.
@@ -37,6 +37,8 @@ class ChallengeOne extends Command
      */
     public function handle()
     {
+        
+
         return Command::SUCCESS;
     }
 }
