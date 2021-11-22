@@ -15,4 +15,8 @@ No need to make any view (html) solutions for this.
 3. Go to the directory of the project (cd tech-challenge-laravel)
 4. Execute the command ./vendor/bin/sail up
 
+### Challenge 1
+
+Parse the users.csv file into the MongoDB collection that is 
+
 
