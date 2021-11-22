@@ -63,7 +63,7 @@ You will be awarded points based on the portability of the solution.
 
     ./vendor/bin/sail artisan techchallenge:five
 
-Generate an Exact Online Transaction XML. For the following transaction:
+Generate an Exact Online Transaction XML that can be imported via Import/Export > XML > Transactions. For the following transaction:
 
 * Type of entry: Sales
 * Customer: Dataswitcher (code is 2)
@@ -74,7 +74,6 @@ Generate an Exact Online Transaction XML. For the following transaction:
   * No VAT
   * Amount of 100.00 EUR
   
-
 *Login details:* 
 https://start.exactonline.be/
 and username ExactTestUser
