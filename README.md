@@ -17,6 +17,12 @@ No need to make any view (html) solutions for this.
 
 ### Challenge 1
 
-Parse the users.csv file into the MongoDB collection that is 
+Convert the persons.csv file into the MongoDB collection that is in Person.php.
+
+With the following requirements:
+
+1. The resulting MongoDB collection should have exactly 500 rows
+2. The full name should be split over three columns (firstname, suffix and lastname)
+3. The country names should be stored as ISO 3166 codes (ie, AF, NL, etc) 
 
 
