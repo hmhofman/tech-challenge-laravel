@@ -3,6 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
+use League\Csv\Reader;
 
 class ChallengeOne extends Command
 {
@@ -38,6 +39,14 @@ class ChallengeOne extends Command
     public function handle()
     {
         // put your code here
+        $csv = Reader::createFromPath('/path/to/file.csv', 'r');
+
+        // these are the proper settings for the persons.csv file
+        $csv->setHeaderOffset(0);
+        $csv->setDelimiter(',');
+        $csv->setEscape("\0");
+        $csv->setEnclosure('"');
+
 
         return Command::SUCCESS;
     }
