@@ -23,13 +23,14 @@ services:
             - sail
         depends_on:
             - mysql
+            - mongodb
             - redis
             - meilisearch
             - selenium
     mongodb:
         image: mongo:latest
         volumes:
-            - '.:/data/db'
+            - 'sailmongodb:/data/db'
     mysql:
         image: 'mysql/mysql-server:8.0'
         ports:
@@ -91,6 +92,8 @@ networks:
     sail:
         driver: bridge
 volumes:
+    sailmongodb:
+        driver: local
     sailmysql:
         driver: local
     sailredis:
