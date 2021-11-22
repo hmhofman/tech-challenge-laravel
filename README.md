@@ -58,3 +58,25 @@ You will be awarded points based on the time it takes to run the script with 500
 
 Generate a PDF document with random data on it (Lorem ipsum). The PDF should have a background image that is mentioned in ./data/background-pdf.jpg
 You will be awarded points based on the portability of the solution.
+
+### Challenge 5
+
+    ./vendor/bin/sail artisan techchallenge:five
+
+Generate an Exact Online Transaction XML. For the following transaction:
+
+* Type of entry: Sales
+* Customer: Dataswitcher (code is 2)
+* YourRef INV0001
+* A single line with: 
+  * G/L account 700000
+  * Description: Sales to Dataswitcher
+  * No VAT
+  * Amount of 100.00 EUR
+  
+
+*Login details:* 
+https://start.exactonline.be/
+and username ExactTestUser
+
+Password + 2FA code on request.
