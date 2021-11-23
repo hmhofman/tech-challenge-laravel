@@ -29,15 +29,16 @@ services:
             - selenium
     mongodb:
         image: mongo:latest
+        container_name: mongodb
         volumes:
             - 'sailmongodb:/data/db'
         networks:
-            - sail            
+            - sail
         ports:
-            - '${FORWARD_DB_PORT:-27017}:27017'            
+            - '${FORWARD_DB_PORT:-27017}:27017'
     mysql:
         image: 'mysql/mysql-server:8.0'
-        
+
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
