@@ -16,6 +16,7 @@ You can use PHP 8.0 as it comes with the default stack.
 2. Clone this repository
 3. Go to the directory of the project (cd tech-challenge-laravel)
 4. Execute the command ./vendor/bin/sail up
+5. Install the composer dependencies ./vendor/bin/sail composer install
 
 ### Challenge 1
 
@@ -59,7 +60,7 @@ You will be awarded points based on the time it takes to run the script with 500
 Generate a PDF document with random data on it (Lorem ipsum). The PDF should have a background image that is mentioned in ./data/background-pdf.jpg
 You will be awarded points based on the portability of the solution.
 
-### Challenge 5
+### Challenge 5 - bonus challenge
 
     ./vendor/bin/sail artisan techchallenge:five
 
