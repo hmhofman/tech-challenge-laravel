@@ -31,8 +31,13 @@ services:
         image: mongo:latest
         volumes:
             - 'sailmongodb:/data/db'
+        networks:
+            - sail            
+        ports:
+            - '${FORWARD_DB_PORT:-27017}:27017'            
     mysql:
         image: 'mysql/mysql-server:8.0'
+        
         ports:
             - '${FORWARD_DB_PORT:-3306}:3306'
         environment:
