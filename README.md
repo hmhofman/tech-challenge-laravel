@@ -10,6 +10,8 @@ No need to make any view (html) solutions for this.
 
 You can use PHP 8.0 as it comes with the default stack.
 
+You can build everything directly into the controller methods. No need to use complex patterns and such. 
+
 ## Getting started
 
 1. Install Docker on your machine
@@ -22,7 +24,7 @@ You can use PHP 8.0 as it comes with the default stack.
 
     ./vendor/bin/sail artisan techchallenge:one
 
-Convert the ./data/persons.csv file into the MongoDB collection that is in Person.php.
+Convert the ./data/persons.csv file into the MongoDB collection that is in Person.php. You can use the models directly like Laravel intented (for instance Person::create())
 
 With the following requirements:
 
