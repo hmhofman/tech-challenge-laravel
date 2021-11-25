@@ -42,6 +42,18 @@ RUN apt-get update \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
+RUN echo "127.0.0.1 localhost" >> /etc/hosts
+# RUN pecl channel-update https://pecl.php.net/channel.xml \
+#     && pecl install swoole \
+#     && pecl clear-cache \
+#     && rm -rf /tmp/* /var/tmp/*
+
+RUN apt-get update \
+    && apt-get install -y xfonts-75dpi wget \
+    && wget https://github.com/wkhtmltopdf/packaging/releases/download/0.12.6-1/wkhtmltox_0.12.6-1.focal_amd64.deb \
+    && apt install -y ./wkhtmltox_0.12.6-1.focal_amd64.deb \
+    && rm ./wkhtmltox_0.12.6-1.focal_amd64.deb
+
 RUN setcap "cap_net_bind_service=+ep" /usr/bin/php8.0
 
 RUN groupadd --force -g $WWWGROUP sail
