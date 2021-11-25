@@ -19,8 +19,10 @@
                 font-family: 'Nunito', sans-serif;
                 background-image: url('http://localhost/background-pdf.jpg') ;
                 /* background-repeat: no-repeat; */
+
                 background-size: cover; /* contain */
                 background-size: contain; 
+                background-size: 100% 100%; 
                 min-width: 100%;
                 min-height: 290mm;
             }
