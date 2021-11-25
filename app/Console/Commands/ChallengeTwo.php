@@ -77,9 +77,9 @@ class ChallengeTwo extends Command
                             dd($data);
                         }
                     }
-                    if ($counter % 1000 == 0) {
-                        echo ($counter/1000).' ';
-                        if ($counter/10000) {
+                    if ($counter % 10000 == 0) {
+                        echo ($counter/10000).' ';
+                        if ($counter/100000 % 0 == 0) {
                             echo "\r\n";
                         }
                     }
