@@ -51,8 +51,10 @@ class ChallengeFour extends Command
 
         $pdf = \App::make('snappy.pdf.wrapper');
         $pdf->setPaper('a4')
-            ->setOption('margin-top', 70 + config('snappy.pdf.options.margin-top'))
-            ->setOption('margin-bottom', 30 + config('snappy.pdf.options.margin-bottom'))
+            ->setOption('margin-top', 0)
+            ->setOption('margin-bottom', 0)
+            ->setOption('margin-left', 0)
+            ->setOption('margin-right', 0)
             // ->setOption('enable-local-file-access', "")
             ->setOption('load-error-handling', 'ignore')
             ->setOption('dpi', 150);

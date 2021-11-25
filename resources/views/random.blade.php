@@ -17,74 +17,60 @@
         <style>
             body {
                 font-family: 'Nunito', sans-serif;
-                /* background-image: url('http://localhost/background-pdf.jpg') ; */
+                background-image: url('http://localhost/background-pdf.jpg') ;
                 background-size: cover;
                 min-width: 210mm;
                 min-height: 290mm;
+                min-width: 100%;
+                min-height: 100%;
+            }
+            div.body-container {
+                padding: 3cm;
             }
         </style>
     </head>
     <body class="antialiased">
-    <div id="Outer">
-
-<div class="banner" style="min-height:90px"><div id="div-gpt-ad-1456148316198-0">
-<script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1456148316198-0"); });</script>
-</div></div>
-
-<div id="Inner">
-
-<div id="Languages"><a href="http://hy.lipsum.com/">&#1344;&#1377;&#1397;&#1381;&#1408;&#1381;&#1398;</a> <a href="http://sq.lipsum.com/">Shqip</a> <span class="ltr" dir="ltr"><a href="http://ar.lipsum.com/">&#8235;&#1575;&#1604;&#1593;&#1585;&#1576;&#1610;&#1577;</a></span> <a href="http://bg.lipsum.com/">&#1041;&#1098;&#1083;&#1075;&#1072;&#1088;&#1089;&#1082;&#1080;</a> <a href="http://ca.lipsum.com/">Catal&agrave;</a> <a href="http://cn.lipsum.com/">&#20013;&#25991;&#31616;&#20307;</a> <a href="http://hr.lipsum.com/">Hrvatski</a> <a href="http://cs.lipsum.com/">&#268;esky</a> <a href="http://da.lipsum.com/">Dansk</a> <a class="zz" href="http://nl.lipsum.com/">Nederlands</a> <a href="http://www.lipsum.com/">English</a> <a href="http://et.lipsum.com/">Eesti</a> <a href="http://ph.lipsum.com/">Filipino</a> <a href="http://fi.lipsum.com/">Suomi</a> <a href="http://fr.lipsum.com/">Fran&ccedil;ais</a> <a href="http://ka.lipsum.com/">&#4325;&#4304;&#4320;&#4311;&#4323;&#4314;&#4312;</a> <a href="http://de.lipsum.com/">Deutsch</a> <a href="http://el.lipsum.com/">&#917;&#955;&#955;&#951;&#957;&#953;&#954;&#940;</a> <span class="ltr" dir="ltr"><a href="http://he.lipsum.com/">&#8235;&#1506;&#1489;&#1512;&#1497;&#1514;</a></span> <a href="http://hi.lipsum.com/">&#2361;&#2367;&#2344;&#2381;&#2342;&#2368;</a> <a href="http://hu.lipsum.com/">Magyar</a> <a href="http://id.lipsum.com/">Indonesia</a> <a href="http://it.lipsum.com/">Italiano</a> <a href="http://lv.lipsum.com/">Latviski</a> <a href="http://lt.lipsum.com/">Lietuvi&scaron;kai</a> <a href="http://mk.lipsum.com/">&#1084;&#1072;&#1082;&#1077;&#1076;&#1086;&#1085;&#1089;&#1082;&#1080;</a> <a href="http://ms.lipsum.com/">Melayu</a> <a href="http://no.lipsum.com/">Norsk</a> <a href="http://pl.lipsum.com/">Polski</a> <a href="http://pt.lipsum.com/">Portugu&ecirc;s</a> <a href="http://ro.lipsum.com/">Rom&acirc;na</a> <a href="http://ru.lipsum.com/">Pycc&#1082;&#1080;&#1081;</a> <a href="http://sr.lipsum.com/">&#1057;&#1088;&#1087;&#1089;&#1082;&#1080;</a> <a href="http://sk.lipsum.com/">Sloven&#269;ina</a> <a href="http://sl.lipsum.com/">Sloven&#353;&#269;ina</a> <a href="http://es.lipsum.com/">Espa&ntilde;ol</a> <a href="http://sv.lipsum.com/">Svenska</a> <a href="http://th.lipsum.com/">&#3652;&#3607;&#3618;</a> <a href="http://tr.lipsum.com/">T&uuml;rk&ccedil;e</a> <a href="http://uk.lipsum.com/">&#1059;&#1082;&#1088;&#1072;&#1111;&#1085;&#1089;&#1100;&#1082;&#1072;</a> <a href="http://vi.lipsum.com/">Ti&#7871;ng Vi&#7879;t</a> </div>
-
-<h1>Lorem Ipsum</h1>
-<h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
-<h5>"Er is niemand die van pijn zelf houdt, die het zoekt en die het hebben wil, eenvoudigweg omdat het pijn is..."</h5>
-
-
-<hr />
-
-<div id="Content">
-<div id="bannerL"><div id="div-gpt-ad-1474537762122-2">
-<script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1474537762122-2"); });</script>
-</div></div>
-<div id="bannerR"><div id="div-gpt-ad-1474537762122-3">
-<script type="text/javascript">googletag.cmd.push(function() { googletag.display("div-gpt-ad-1474537762122-3"); });</script>
-</div></div>
-<div class="boxed"><!-- 
-
-
-If you want to use Lorem Ipsum within another program please contact us for details
-on our API rather than parse the HTML below, we have XML and JSON available.
-
-
- --><div id="lipsum">
-<p>
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio lacus, volutpat at magna sed, varius ultricies dolor. Aenean lobortis vel lorem vel dignissim. Donec at orci commodo libero congue vehicula. Mauris posuere ante imperdiet, volutpat nisi eget, tristique magna. Vivamus tellus nisi, porta ut porta sit amet, vehicula vel nisi. Suspendisse placerat leo et imperdiet convallis. Sed dapibus accumsan congue.
-</p>
-<p>
-Aliquam erat volutpat. Vivamus mi nulla, malesuada ac suscipit id, ultrices et dui. Sed vitae nibh pulvinar, convallis risus at, feugiat ligula. Praesent sed eleifend nibh. Cras arcu arcu, ultrices nec fermentum quis, accumsan quis risus. Curabitur vel ornare magna, eget posuere erat. Curabitur egestas tempus lorem, ut porta ante fringilla in. Quisque condimentum mi metus, id fermentum mauris laoreet at.
-</p>
-<p>
-Suspendisse potenti. Nulla faucibus tristique purus eget fermentum. Aenean blandit pulvinar enim, sed tempus arcu vulputate a. Aenean efficitur dolor nec lectus pellentesque viverra. Aenean ultrices facilisis felis, et egestas risus commodo sed. Quisque velit odio, vulputate non turpis quis, dictum bibendum erat. Pellentesque dictum quis massa in congue.
-</p>
-<p>
-Praesent tristique lacus eget orci placerat, sit amet tincidunt arcu sollicitudin. Integer dignissim ipsum at lectus iaculis, a ultricies leo cursus. Nullam accumsan molestie tortor, vitae sodales ipsum semper vel. Curabitur at ipsum vitae ante mattis placerat nec sit amet tortor. Vestibulum eu efficitur nulla. Ut fermentum dictum arcu, quis efficitur erat suscipit vitae. Integer et rutrum elit.
-</p>
-<p>
-Quisque tincidunt luctus lacus a consequat. Cras porttitor ac magna in egestas. Morbi ut gravida risus, non suscipit ante. Pellentesque viverra neque id enim placerat accumsan vel ac augue. Duis auctor a metus a iaculis. Fusce pretium tincidunt leo sed tristique. Aliquam vehicula quam mauris, ac posuere diam luctus id. Aliquam a magna a erat gravida feugiat. Morbi vel nunc ut felis lobortis malesuada. Nunc mollis vulputate ipsum. Suspendisse euismod arcu in augue pretium, sit amet aliquam lacus placerat. Aenean consequat rhoncus odio. Maecenas pharetra tristique pulvinar.
-</p></div>
-<div id="generated">Er zijn 5 paragrafen, 316 woorden, 2161 bytes <a href="https://nl.lipsum.com/" title="Lorem Ipsum">Lorem Ipsum</a> gegenereerd.</div>
-</div>
-</div>
-
-<hr />
-
-<div class="boxed"><a style="text-decoration:none" href="mailto:help&#x40;lipsu&#x6d;&#46;c&#x6f;m">h&#101;lp&#64;&#108;ipsu&#109;&#46;&#99;&#x6f;m</a><br /><a style="text-decoration:none" target="_blank" href="/privacy.pdf" />Privacy Policy</a></div>
-
-
-
-</div>
-
-
-    
+        <div class="body-container">
+            <div id="Outer">
+                <div id="Inner">
+                    <h1>Lorem Ipsum</h1>
+                    <h4>"Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."</h4>
+                    <h5>"Er is niemand die van pijn zelf houdt, die het zoekt en die het hebben wil, eenvoudigweg omdat het pijn is..."</h5>
+                    <hr />
+                    <div id="Content">
+                        <div class="boxed"><!-- 
+                            If you want to use Lorem Ipsum within another program please contact us for details
+                            on our API rather than parse the HTML below, we have XML and JSON available.
+                            -->
+                            <div id="lipsum">
+                                <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent odio lacus, volutpat at magna sed, varius ultricies dolor. Aenean lobortis vel lorem vel dignissim. Donec at orci commodo libero congue vehicula. Mauris posuere ante imperdiet, volutpat nisi eget, tristique magna. Vivamus tellus nisi, porta ut porta sit amet, vehicula vel nisi. Suspendisse placerat leo et imperdiet convallis. Sed dapibus accumsan congue.
+                                </p>
+                                <p>
+                                Aliquam erat volutpat. Vivamus mi nulla, malesuada ac suscipit id, ultrices et dui. Sed vitae nibh pulvinar, convallis risus at, feugiat ligula. Praesent sed eleifend nibh. Cras arcu arcu, ultrices nec fermentum quis, accumsan quis risus. Curabitur vel ornare magna, eget posuere erat. Curabitur egestas tempus lorem, ut porta ante fringilla in. Quisque condimentum mi metus, id fermentum mauris laoreet at.
+                                </p>
+                                <p>
+                                Suspendisse potenti. Nulla faucibus tristique purus eget fermentum. Aenean blandit pulvinar enim, sed tempus arcu vulputate a. Aenean efficitur dolor nec lectus pellentesque viverra. Aenean ultrices facilisis felis, et egestas risus commodo sed. Quisque velit odio, vulputate non turpis quis, dictum bibendum erat. Pellentesque dictum quis massa in congue.
+                                </p>
+                                <p>
+                                Praesent tristique lacus eget orci placerat, sit amet tincidunt arcu sollicitudin. Integer dignissim ipsum at lectus iaculis, a ultricies leo cursus. Nullam accumsan molestie tortor, vitae sodales ipsum semper vel. Curabitur at ipsum vitae ante mattis placerat nec sit amet tortor. Vestibulum eu efficitur nulla. Ut fermentum dictum arcu, quis efficitur erat suscipit vitae. Integer et rutrum elit.
+                                </p>
+                                <p>
+                                Quisque tincidunt luctus lacus a consequat. Cras porttitor ac magna in egestas. Morbi ut gravida risus, non suscipit ante. Pellentesque viverra neque id enim placerat accumsan vel ac augue. Duis auctor a metus a iaculis. Fusce pretium tincidunt leo sed tristique. Aliquam vehicula quam mauris, ac posuere diam luctus id. Aliquam a magna a erat gravida feugiat. Morbi vel nunc ut felis lobortis malesuada. Nunc mollis vulputate ipsum. Suspendisse euismod arcu in augue pretium, sit amet aliquam lacus placerat. Aenean consequat rhoncus odio. Maecenas pharetra tristique pulvinar.
+                                </p>
+                            </div>
+                            <div id="generated">
+                                Er zijn 5 paragrafen, 316 woorden, 2161 bytes <a href="https://nl.lipsum.com/" title="Lorem Ipsum">Lorem Ipsum</a> gegenereerd.
+                            </div>
+                        </div>
+                    </div>
+                    <hr />
+                    <div class="boxed">
+                        <br />
+                        <a style="text-decoration:none" target="_blank" href="/privacy.pdf" />Privacy Policy</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
