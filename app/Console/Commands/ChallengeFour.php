@@ -55,6 +55,7 @@ class ChallengeFour extends Command
             ->setOption('margin-bottom', 0)
             ->setOption('margin-left', 0)
             ->setOption('margin-right', 0)
+            // ->setOption('')
             // ->setOption('enable-local-file-access', "")
             ->setOption('load-error-handling', 'ignore')
             ->setOption('dpi', 150);

@@ -15,14 +15,14 @@
         </style>
 
         <style>
-            body {
+            html {
                 font-family: 'Nunito', sans-serif;
                 background-image: url('http://localhost/background-pdf.jpg') ;
-                background-size: cover;
-                min-width: 210mm;
-                min-height: 290mm;
+                /* background-repeat: no-repeat; */
+                background-size: cover; /* contain */
+                background-size: contain; 
                 min-width: 100%;
-                min-height: 100%;
+                min-height: 290mm;
             }
             div.body-container {
                 padding: 3cm;
@@ -58,16 +58,9 @@
                                 <p>
                                 Quisque tincidunt luctus lacus a consequat. Cras porttitor ac magna in egestas. Morbi ut gravida risus, non suscipit ante. Pellentesque viverra neque id enim placerat accumsan vel ac augue. Duis auctor a metus a iaculis. Fusce pretium tincidunt leo sed tristique. Aliquam vehicula quam mauris, ac posuere diam luctus id. Aliquam a magna a erat gravida feugiat. Morbi vel nunc ut felis lobortis malesuada. Nunc mollis vulputate ipsum. Suspendisse euismod arcu in augue pretium, sit amet aliquam lacus placerat. Aenean consequat rhoncus odio. Maecenas pharetra tristique pulvinar.
                                 </p>
-                            </div>
-                            <div id="generated">
-                                Er zijn 5 paragrafen, 316 woorden, 2161 bytes <a href="https://nl.lipsum.com/" title="Lorem Ipsum">Lorem Ipsum</a> gegenereerd.
+
                             </div>
                         </div>
-                    </div>
-                    <hr />
-                    <div class="boxed">
-                        <br />
-                        <a style="text-decoration:none" target="_blank" href="/privacy.pdf" />Privacy Policy</a>
                     </div>
                 </div>
             </div>
